@@ -1,4 +1,4 @@
-package com.company;
+package com.udemy.switchstatements;
 
 public class Main {
 

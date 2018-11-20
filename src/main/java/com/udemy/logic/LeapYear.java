@@ -11,6 +11,10 @@ public class LeapYear {
         }
     }
 
+    public static void main(String[] args) {
 
+        boolean result = isLeapYear(999999);
+        System.out.println(result);
+    }
 
 }
