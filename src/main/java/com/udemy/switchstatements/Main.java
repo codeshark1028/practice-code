@@ -3,7 +3,7 @@ package com.udemy.switchstatements;
 public class Main {
 
     public static void main(String[] args) {
-        int switchValue = 5;
+        int switchValue = 1;
 
         switch (switchValue) {
             case 1:
@@ -11,7 +11,7 @@ public class Main {
                 break;
 
             case 2:
-                System.out.println("Vaule was 2");
+                System.out.println("Value was 2");
                 break;
 
             case 3:
@@ -26,7 +26,7 @@ public class Main {
                 break;
         }
 
-        char charValue = 'B';
+        char charValue = 'H';
         switch (charValue) {
             case 'A':
                 System.out.println("A was found");
@@ -37,6 +37,9 @@ public class Main {
             case 'C':
             case 'D':
             case 'E':
+            case 'F':
+            case 'G':
+            case 'H':
                 System.out.println(charValue + " was found");
                 break;
 
